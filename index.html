@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Surya A — DevSecOps &amp; AI Infrastructure Engineer</title>
+<meta name="description" content="Freelance DevSecOps & AI Infrastructure Engineer. Secure, autoscaling Kubernetes platforms, shift-left CI/CD, and LLM/agentic AI infrastructure." />
+<style>
+  :root{
+    --bg:#0f172a; --bg2:#1e293b; --card:#1e293b; --line:#334155;
+    --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; --accent2:#34d399;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  a{color:var(--accent);text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+  /* nav */
+  nav{position:sticky;top:0;background:rgba(15,23,42,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;height:62px}
+  nav .brand{font-weight:700;color:#fff}
+  nav .links a{margin-left:20px;color:var(--muted);font-size:.95rem}
+  nav .links a:hover{color:var(--accent)}
+  /* hero */
+  header{background:radial-gradient(900px 400px at 70% -10%,rgba(56,189,248,.18),transparent),var(--bg);padding:90px 0 70px;border-bottom:1px solid var(--line)}
+  .tag{display:inline-block;border:1px solid var(--accent);color:var(--accent);border-radius:999px;padding:5px 14px;font-size:.8rem;letter-spacing:.04em;margin-bottom:22px}
+  h1{font-size:2.9rem;line-height:1.15;color:#fff;margin-bottom:14px}
+  h1 .grad{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .lede{font-size:1.2rem;color:var(--muted);max-width:720px;margin-bottom:30px}
+  .cta a{display:inline-block;margin:6px 10px 6px 0;padding:12px 22px;border-radius:10px;font-weight:600}
+  .btn-primary{background:var(--accent);color:#04263a!important}
+  .btn-ghost{border:1px solid var(--line);color:var(--text)!important}
+  .btn-primary:hover{filter:brightness(1.08)}
+  .btn-ghost:hover{border-color:var(--accent)}
+  /* sections */
+  section{padding:64px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.7rem;color:#fff;margin-bottom:8px}
+  .sub{color:var(--muted);margin-bottom:30px}
+  /* impact */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;text-align:center}
+  .stat .n{font-size:2rem;font-weight:800;color:var(--accent2)}
+  .stat .l{color:var(--muted);font-size:.9rem;margin-top:4px}
+  /* services */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .svc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .svc h3{color:#fff;margin-bottom:10px;font-size:1.15rem}
+  .svc .ic{font-size:1.6rem;margin-bottom:10px}
+  .svc ul{list-style:none;margin-top:12px}
+  .svc li{color:var(--muted);font-size:.93rem;padding-left:18px;position:relative;margin-bottom:6px}
+  .svc li::before{content:"▹";position:absolute;left:0;color:var(--accent)}
+  /* projects */
+  .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .proj{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;transition:.15s}
+  .proj:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .proj .t{color:#fff;font-weight:700;font-size:1.05rem;margin-bottom:6px}
+  .proj .d{color:var(--muted);font-size:.92rem}
+  .proj .stack{margin-top:12px}
+  .chip{display:inline-block;background:#0b1220;border:1px solid var(--line);color:var(--accent);font-size:.72rem;border-radius:6px;padding:3px 8px;margin:3px 4px 0 0}
+  /* skills */
+  .skills{display:flex;flex-wrap:wrap;gap:10px}
+  .skills span{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px;color:var(--text);font-size:.9rem}
+  /* contact */
+  .contact{text-align:center}
+  .contact .cta{margin-top:18px}
+  footer{padding:30px 0;text-align:center;color:var(--muted);font-size:.85rem}
+  @media(max-width:780px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .grid3,.grid2{grid-template-columns:1fr}
+    h1{font-size:2.1rem}
+    nav .links{display:none}
+  }
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <span class="brand">Surya A</span>
+  <span class="links">
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </span>
+</div></nav>
+
+<header><div class="wrap">
+  <span class="tag">OPEN TO FREELANCE &amp; CONTRACT WORK</span>
+  <h1>DevSecOps &amp; <span class="grad">AI Infrastructure</span> Engineer</h1>
+  <p class="lede">I build secure, autoscaling <strong>Kubernetes</strong> platforms, shift-left <strong>CI/CD</strong> pipelines, and production <strong>LLM / agentic-AI</strong> infrastructure — with security wired in from commit to cluster.</p>
+  <div class="cta">
+    <a class="btn-primary" href="mailto:suryaanandan1995@gmail.com">📩 Hire me</a>
+    <a class="btn-ghost" href="https://www.linkedin.com/in/surya-devsecops/" target="_blank" rel="noopener">in&nbsp; LinkedIn</a>
+    <a class="btn-ghost" href="https://github.com/suryaanandan1995-dotcom" target="_blank" rel="noopener">⌘ GitHub</a>
+  </div>
+</div></header>
+
+<section id="impact"><div class="wrap">
+  <h2>Proven impact</h2>
+  <p class="sub">Quantified results from production cloud-native platform engineering.</p>
+  <div class="stats">
+    <div class="stat"><div class="n">50%</div><div class="l">Faster deployments</div></div>
+    <div class="stat"><div class="n">75%</div><div class="l">Higher deploy frequency</div></div>
+    <div class="stat"><div class="n">40%</div><div class="l">Cloud cost reduction</div></div>
+    <div class="stat"><div class="n">7+ yrs</div><div class="l">IT &amp; cloud-native</div></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap">
+  <h2>How I can help</h2>
+  <p class="sub">Focused engagements with clear outcomes. Pricing &amp; scope — let's discuss.</p>
+  <div class="grid3">
+    <div class="svc">
+      <div class="ic">☸️</div>
+      <h3>Kubernetes &amp; Cloud Platform Build</h3>
+      <p style="color:var(--muted);font-size:.93rem">Production-grade clusters on AKS / GKE / EKS, provisioned as code.</p>
+      <ul>
+        <li>Terraform + Helm, multi-environment</li>
+        <li>Ingress, autoscaling (HPA), observability</li>
+        <li>RBAC, network policies, secrets management</li>
+      </ul>
+    </div>
+    <div class="svc">
+      <div class="ic">🔐</div>
+      <h3>DevSecOps Pipeline Hardening</h3>
+      <p style="color:var(--muted);font-size:.93rem">Shift-left security baked into your delivery pipeline.</p>
+      <ul>
+        <li>SAST / SCA / secret &amp; image scanning</li>
+        <li>GitOps with ArgoCD, safe rollouts &amp; rollback</li>
+        <li>Policy-as-code &amp; supply-chain security</li>
+      </ul>
+    </div>
+    <div class="svc">
+      <div class="ic">🤖</div>
+      <h3>AI Infrastructure &amp; LLMOps</h3>
+      <p style="color:var(--muted);font-size:.93rem">Deploy &amp; secure LLM and agentic-AI workloads at scale.</p>
+      <ul>
+        <li>LLM inference serving &amp; RAG on K8s</li>
+        <li>MCP servers &amp; multi-agent automation</li>
+        <li>AI-security guardrails (PII, injection, cost)</li>
+      </ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Selected work</h2>
+  <p class="sub">Open-source, production-style projects — each with architecture docs, CI, and one-command setup.</p>
+  <div class="grid2">
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/llm-guardrails-gateway" target="_blank" rel="noopener">
+      <div class="t">🛡️ LLM Guardrails Gateway</div>
+      <div class="d">AI-security gateway: prompt-injection detection, PII redaction, output filtering &amp; token/cost limits in front of any LLM API.</div>
+      <div class="stack"><span class="chip">FastAPI</span><span class="chip">AI Security</span><span class="chip">Kubernetes</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/mcp-devops-server" target="_blank" rel="noopener">
+      <div class="t">🔌 MCP DevOps Server</div>
+      <div class="d">Model Context Protocol server exposing K8s, cloud &amp; CI tools to any AI agent — Claude Desktop, IDEs, custom agents.</div>
+      <div class="stack"><span class="chip">MCP</span><span class="chip">Python</span><span class="chip">Kubernetes</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/agentic-sre-platform" target="_blank" rel="noopener">
+      <div class="t">🧠 Agentic SRE Platform</div>
+      <div class="d">Multi-agent incident response on LangGraph: detect → diagnose → remediate → postmortem, with dry-run safety.</div>
+      <div class="stack"><span class="chip">LangGraph</span><span class="chip">Claude</span><span class="chip">SRE</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/ai-devops-agent" target="_blank" rel="noopener">
+      <div class="t">🤖 AI DevOps Agent</div>
+      <div class="d">Agent that detects &amp; auto-remediates Kubernetes issues using Claude tool-use + the K8s Python SDK.</div>
+      <div class="stack"><span class="chip">LangChain</span><span class="chip">Claude</span><span class="chip">Kubernetes</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/llm-inference-k8s" target="_blank" rel="noopener">
+      <div class="t">⚡ LLM Inference on Kubernetes</div>
+      <div class="d">Production vLLM serving with Istio, HPA autoscaling and Prometheus/Grafana observability.</div>
+      <div class="stack"><span class="chip">vLLM</span><span class="chip">Istio</span><span class="chip">Helm</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/rag-platform-k8s" target="_blank" rel="noopener">
+      <div class="t">📚 RAG Platform on Kubernetes</div>
+      <div class="d">Ingestion → embeddings → vector store → grounded generation, with an evaluation harness and Helm deploy.</div>
+      <div class="stack"><span class="chip">RAG</span><span class="chip">Qdrant</span><span class="chip">FastAPI</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/multi-cloud-k8s-terraform" target="_blank" rel="noopener">
+      <div class="t">☁️ Multi-Cloud K8s (Terraform)</div>
+      <div class="d">One-command Kubernetes provisioning across AWS EKS, GCP GKE &amp; Azure AKS with Terraform + Helm.</div>
+      <div class="stack"><span class="chip">Terraform</span><span class="chip">EKS/GKE/AKS</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/devsecops-cicd-pipeline" target="_blank" rel="noopener">
+      <div class="t">🔐 DevSecOps CI/CD Pipeline</div>
+      <div class="d">Secure CI/CD with Trivy + Snyk scanning, image build to ECR, and GitOps deploy via ArgoCD.</div>
+      <div class="stack"><span class="chip">GitHub Actions</span><span class="chip">Trivy</span><span class="chip">ArgoCD</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/gitops-multi-env" target="_blank" rel="noopener">
+      <div class="t">🔁 GitOps Multi-Environment</div>
+      <div class="d">Full GitOps across dev/staging/prod with ArgoCD App-of-Apps, Helm &amp; Kustomize overlays.</div>
+      <div class="stack"><span class="chip">ArgoCD</span><span class="chip">Kustomize</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/keycloak-nginx-k8s" target="_blank" rel="noopener">
+      <div class="t">🔑 Keycloak SSO on K8s</div>
+      <div class="d">Enterprise OIDC single sign-on — Keycloak IdP behind NGINX ingress + oauth2-proxy.</div>
+      <div class="stack"><span class="chip">Keycloak</span><span class="chip">OIDC</span><span class="chip">NGINX</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/cloud-cost-optimiser" target="_blank" rel="noopener">
+      <div class="t">💰 Cloud Cost Optimiser</div>
+      <div class="d">Daily multi-cloud cost reports with anomaly detection → PostgreSQL → Telegram alerts.</div>
+      <div class="stack"><span class="chip">FinOps</span><span class="chip">Boto3</span><span class="chip">Python</span></div>
+    </a>
+    <a class="proj" href="https://github.com/suryaanandan1995-dotcom/devops-automation-toolkit" target="_blank" rel="noopener">
+      <div class="t">🧰 DevOps Automation Toolkit</div>
+      <div class="d">Practical automation: K8s health, DB backup, Docker cleanup, log aggregation.</div>
+      <div class="stack"><span class="chip">Python</span><span class="chip">Automation</span></div>
+    </a>
+  </div>
+  <p style="margin-top:22px"><a href="https://github.com/suryaanandan1995-dotcom?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub →</a></p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Tech stack</h2>
+  <p class="sub">Cloud-native, security, and AI-infrastructure tooling I work with daily.</p>
+  <div class="skills">
+    <span>Azure (broad)</span><span>Google Cloud (broad)</span><span>AWS (EKS/EC2/S3/RDS)</span>
+    <span>Kubernetes</span><span>AKS / GKE / EKS</span><span>Terraform</span><span>Helm</span><span>Docker</span>
+    <span>Istio</span><span>ArgoCD</span><span>GitHub Actions</span><span>Jenkins</span>
+    <span>Trivy</span><span>Snyk</span><span>SonarQube</span><span>OPA</span>
+    <span>Python</span><span>Bash</span><span>Ansible</span>
+    <span>Prometheus</span><span>Grafana</span><span>Loki</span><span>ELK</span>
+    <span>PostgreSQL</span><span>Redis</span>
+    <span>LangGraph</span><span>LangChain</span><span>Claude / Anthropic</span><span>MCP</span><span>vLLM</span><span>RAG</span>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap contact">
+  <h2>Let's build something secure</h2>
+  <p class="sub">Available for freelance &amp; contract work in DevSecOps, Kubernetes platform engineering, and AI infrastructure.</p>
+  <div class="cta">
+    <a class="btn-primary" href="mailto:suryaanandan1995@gmail.com">📩 suryaanandan1995@gmail.com</a>
+    <a class="btn-ghost" href="https://www.linkedin.com/in/surya-devsecops/" target="_blank" rel="noopener">in&nbsp; linkedin.com/in/surya-devsecops</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">© 2026 Surya A · DevSecOps &amp; AI Infrastructure Engineer · Based in London, UK</div></footer>
+
+</body>
+</html>
